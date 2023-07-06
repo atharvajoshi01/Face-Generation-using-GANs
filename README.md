@@ -1,41 +1,39 @@
-## GANs Project: Face Generation
-### Getting the project files
+# Face Generation
+## Project Overview
+This project focuses on generating realistic human faces using Generative Adversarial Networks (GANs). The goal is to train a GAN model to generate new images that resemble human faces based on a given dataset of celebrity images.
 
-The project files are located in the Project Workspace and include the following files:
+### Getting Started
+To get started with the project, follow these steps:
 
-* **`dlnd_face_generation_starter.ipynb`**
-* **`README.md`**
-* **`requirements.txt`**
-* **`tests.py`**
-* **`processed-celeba-small.zip`**
+### Prerequisites
+Python 3
+Jupyter Notebook
+Installation
+Clone the repository or download the project files from the Project Workspace.
 
-We highly recommend using the Project Workspace to complete your project; however, if you choose to not use the workspace, you can download the project files from the Project Workspace.
+#### Install the required dependencies by running the following command:
 
+pip install -r requirements.txt
+
+### Project Files
+The project files include the following:
+
+1. dlnd_face_generation_starter.ipynb: Jupyter Notebook containing the project code and instructions.
+2. README.md: This file contains project information and instructions.
+3. requirements.txt: File specifying the required Python dependencies.
+4. tests.py: Python script for running project tests.
+5. processed-celeba-small.zip: Dataset file (zip format) containing preprocessed celebrity face images.
+   
 ### Instructions
+1. Open the Jupyter Notebook file dlnd_face_generation_starter.ipynb.
+2. Follow the instructions in the notebook to complete the project.
+3. The project is organized into different sections: Data Pipeline, Model Implementation, Loss Functions and Gradient Penalty, and Training Loop.
+4. Make design decisions based on your experience and implement the necessary code in each section.
+5. Feel free to iterate and improve your model or data pipeline based on the results obtained.
 
-Open the notebook file, `dlnd_face_generation_starter.ipynb` and follow the instructions. This project is organized as follows:
+### Acknowledgments
+• This project was completed as part of the Deep Learning Nanodegree program on Udacity.
 
-* **Data Pipeline**: implement a data augmentation function and a custom dataset class to load the images and transform them.
-* **Model Implementation**: build a custom generator and a custom discriminator to make your GAN
-* **Loss Functions and Gradient Penalty**: decide on loss functions and whether you want to use gradient penalty or not.
-* **Training Loop**: implement the training loop and decide on which strategy to use 
+• The dataset used for training the GAN model is derived from the CelebA dataset.
 
-Each section requires you to make design decisions based on the experience you have gathered in this course.  Do not hesitate to come back to a section to improve your model or your data pipeline based on the results that you are getting. 
-
-Building a deep learning model is an iterative process, and it's especially true for GANs! Good luck!
-
-### Submitting Your Project
-
-For this project you will need to submit one file – **dlnd_face_generation.ipynb**
-
-
-The full project may be submitted in two ways:
-
-**Project completed in Project Workspace:**
-
-* Your project may be submitted directly via the Project Workspace by pressing the **`Submit`** button in the bottom right corner of the workspace. 
-
-**Project completed outside of Project Workspace:**
-
-* Your project may be submitted using the Project Submission page by pressing the **`Submit Project`** button in the top right corner of the page and following those directions.
-* You will need to create a zip file of the required project file and submit the zip file.
+• The project instructions and starter code were provided by Udacity.
